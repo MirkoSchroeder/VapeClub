@@ -7,6 +7,7 @@ import Form from "./Components/Form/Form"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import CustomProvider from './Components/Context/CartContext';
 import Footer from "./Components/Footer/Footer";
+import Faq from "./Components/Faq/Faq";
 
 const App = () => {
   return (
@@ -16,11 +17,12 @@ const App = () => {
 
         <NavBar />
         <Routes>
-          <Route path="/" element={<ItemListContainer/>}></Route >
-          <Route path="/:categoryName" element={<ItemListContainer/>}></Route >
-          <Route path="/item/:id" element={<ItemDetailContainer />}></Route >
-          <Route path="/cart" element={<Cart />}></Route >
-          <Route path="/form" element={<Form />} />
+          <Route path="/" element={< ItemListContainer />}></Route >
+          <Route path="/:categoryName" element={< ItemListContainer />}></Route >
+          <Route path="/item/:id" element={< ItemDetailContainer />}></Route >
+          <Route path="/preguntas-frecuentes" element={< Faq />}></Route >
+          <Route path="/cart" element={< Cart />}></Route >
+          <Route path="/form" element={< Form />} />
         </Routes>
         <Footer />
         
