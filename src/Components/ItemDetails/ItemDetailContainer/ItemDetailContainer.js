@@ -27,7 +27,7 @@ function ItemDetailContainer() {
     return (
         <div>
             <div className="flex justify-center pt-3 sm:text-center">
-                <h2 className="text-5xl font-black leading-10 text-gray-800 pt-3 pb-5 uppercase">Informacion del producto</h2>
+                <h2 className="text-5xl font-black leading-10 text-gray-800 pt-3 pb-5 uppercase sm:text-4xl">Informacion del producto</h2>
             </div>
             <div className="flex justify-center py-8">
             {Object.keys(producto).length !== 0 ? (

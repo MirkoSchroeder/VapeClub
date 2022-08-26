@@ -17,8 +17,8 @@ const ItemDetail = ({ item }) => {
                 </div>
                 <div className="col-md-8 sm:text-center">
                     <div className="card-body">
-                        <div classNameName="sm:flex sm:justify-center">
-                            <h5 className="card-title pt-2 uppercase font-bold">{item.producto}</h5>
+                        <div>
+                            <h5 className="card-title pt-2 uppercase font-bold justify-center">{item.producto}</h5>
                         </div>
                         <p className="card-text font-bold">Precio: ${item.precio}</p>
                         <p className="card-text font-bold">Tipo: {item.tipo}</p>
